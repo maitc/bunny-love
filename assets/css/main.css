@@ -1,1 +1,119 @@
-main.css
+*{
+	font-family: 'Baloo Paaji', cursive;
+	margin: 0 auto;
+}
+body{
+	background-color: #DFF7FF;
+}
+/*********NAV********/
+.navbar{
+	background-color: #1F879A;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+}
+.logo{ 
+ 	float: left;
+ 	padding-top: 15px;
+ 	padding-left: 90px;
+}
+.menu-navbar{
+	float: right;
+	padding-top: 20px;
+	padding-right: 100px;
+}
+.logo h1{
+	display: inline-block;
+	color: whitesmoke;
+}
+#love{
+	display: inline-block;
+	color: #FF6666;
+}
+.menu-navbar ul li{
+	display: inline-block;
+	list-style: none;
+}
+.menu-navbar ul li a{
+	font-family: 'Prompt', sans-serif;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 15px;
+	padding: 6px;
+}
+
+/************HEADER***********/
+.headr{
+	width: 90%;
+	height: 550px;
+	position: relative;
+}
+.hdr{
+	padding: 0px;
+}
+.imagen-principal{
+	width: 80%;
+	height: 60%;
+	background-size: cover;
+}
+.imagen-principal img{
+	width:100%; 
+	height: auto;
+	background-size: cover;
+
+}
+.titulo-hdr{
+	background-color: rgba(31, 135, 154, 0.7);
+	width: 54%;
+	height: 201px;
+}
+.titulo-hdr{
+	position: absolute;
+	top: 191px;
+	left: 273px;
+	text-align: center;
+}
+.titulo-hdr h1{
+	color: #FF6666;
+	font-size: 60px;
+	margin: 15px; 
+}
+.titulo-hdr p{
+	font-family: 'Prompt', sans-serif;
+	color: whitesmoke;
+}
+
+
+/*********fotos pequeñas**********/
+.imgs-peque{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.imgs{
+	background-color: white;
+	width: 85%;
+	height: 400px;
+}
+.img-uno, .img-dos, .img-tres, .img-cuatro{
+	background-color: #1F879A;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+.img-uno img, .img-dos img, .img-tres img, .img-cuatro img{
+	width: 100%;
+}
+.img-uno h3, .img-uno p, .img-dos h3, .img-dos p, .img-tres h3, .img-tres p, .img-cuatro h3, .img-cuatro p {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.img-uno h3, .img-dos h3, .img-tres h3, .img-cuatro h3{
+	color: #FF6666;
+}
+.img-uno p, .img-dos p, .img-tres p, .img-cuatro p{
+	font-family: 'Prompt', sans-serif;
+	color: whitesmoke;
+}
+
