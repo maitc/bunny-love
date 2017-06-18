@@ -53,8 +53,8 @@ body{
 	padding: 0px;
 }
 .imagen-principal{
-	width: 80%;
-	height: 60%;
+	width: 102%;
+	height: 548px;
 	background-size: cover;
 }
 .imagen-principal img{
@@ -85,7 +85,7 @@ body{
 }
 
 
-/*********fotos pequeñas**********/
+/*********THIRD SECTION**********/
 .imgs-peque{
 	margin-left: 0px;
 	padding-left: 0px;
@@ -100,6 +100,7 @@ body{
 	padding-right: 0px;
 	padding-bottom: 20px;
 	margin: 0px;
+	border: 5px solid white;
 }
 .img-uno img, .img-dos img, .img-tres img, .img-cuatro img{
 	width: 100%;
@@ -116,4 +117,72 @@ body{
 	font-family: 'Prompt', sans-serif;
 	color: whitesmoke;
 }
+.img-uno p{
+	padding-bottom: 24px;
+}
+/********FOURTH SECTION**********/
 
+.espacio-uno{
+	border: 15px solid #1F879A;
+	padding: 0px;
+}
+.espacio-uno img{
+	width: 100%;
+}
+.espacio-dos{
+	border-top: 15px solid #1F879A;
+	border-right: 15px solid #1F879A;
+	border-bottom: 15px solid #1F879A;
+}
+.espacio-uno h3, .espacio-dos h3{
+	color: #FF6666;
+	text-align: center;
+}
+.espacio-uno p, .espacio-dos p, .espacio-uno h4{
+	font-family: 'Prompt', sans-serif;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.conejo-dos{
+	border-top: 15px solid #1F879A;
+}
+#ajuste-ult{
+	padding-bottom: 127px;
+}
+.conejo-dos{
+	width: 100%;
+}
+.conejo-uno{
+	width: 104%;
+}
+.espacio-dos input{
+	border: 20px solid #D2FCFF;
+	width: 405px;
+	height: 25px;		
+}
+
+
+/**FIFTH SECTION**/
+.conejo-head{
+	background-image: url('../img/bunny-head.png');
+	background-size: 100px;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 50px;
+}
+.conejo-head{
+	margin: 10px 0;
+}
+
+/**FOOTER**/
+footer{
+	background-color: #1F879A;
+	height: 28px;
+}
+footer p{
+	text-align: center;
+	color: white;
+	font-family: 'Prompt', sans-serif;
+	font-weight: 300;
+
+}
